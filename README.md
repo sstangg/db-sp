@@ -1,16 +1,18 @@
 By: Sophia Tang
 
-# SLIDING PUZZLE GAME
+# DOTS & BOXES, SLIDING PUZZLE GAME
 
 ### To run this game in the terminal:
-1. navigate to the "sliding-puzzle" directory using cd commands after unzipping the files
+1. navigate to the "db-sp" directory using cd commands after unzipping the files
 2. Enter these commands in order in the terminal:
 - javac *.java
 - java Main
 
 ### File information:
+
+#### Abstract Classes
 1. Main.java
-    - controls the game flow & control
+    - organizes high level game flow & control
     - contains the main() method
 
 2. Board.java
@@ -19,6 +21,33 @@ By: Sophia Tang
 
 3. Player.java
     - represent Player information (name, pronouns)
+
+4. Tile.java
+    - represent Tiles on a board, includes location and held values
+
+5. Controller.java
+    - orchestrates the main flow and important logic in the game
+
+#### Dots & Boxes Classes
+1. DBBoard.java
+
+2. DBTile.java
+    - represent formed boxes on the board
+
+3. DBEdge.java
+    - represent edges between dots on a board
+
+4. DBEdgeVertical.java
+    - vertical edges
+
+5. DBEdgeHorizontal .java
+    - horizontal edges
+
+6. DBDots.java
+    - represent dots on a board
+
+7. DBController.java
+    - orchestrates the main flow and important logic in the game
 
 ## Notes
 Extra Features
